@@ -31,6 +31,6 @@ func main() {
 
 	fileHandler.RegisterRoutes(app)
 
-	log.Println("Server starting on :3000")
+	log.Println("Starting on :3000")
 	log.Fatal(app.Listen(":3000"))
 }
